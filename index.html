@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="outer-part">
+<form>
+    <div class="user-input">
+        <input type="text" name="valuefrombtn">
+     </div>
+     <div class="btn1">
+    
+      <input class="niral" type="button" value="AC" onclick="valuefrombtn.value=''" >
+      <input class="niral" type="button" value="DEL" onclick="valuefrombtn.value=valuefrombtn.value.toString().slice(0,-1)" >
+      <input class="niral" type="button" value="." onclick="valuefrombtn.value+='.'" >
+      <input class="niral" type="button" value="/" onclick="valuefrombtn.value+='/'" >
+
+     </div>
+    <div  class="btn">
+      
+       <input type="button" value="7" onclick="valuefrombtn.value+='7'">
+       <input type="button" value="8" onclick="valuefrombtn.value+='8'">
+       <input type="button" value="9" onclick="valuefrombtn.value+='9'">
+       <input type="button" value="+" onclick="valuefrombtn.value+='+'" >
+     
+      
+    </div>
+
+    <div class="btn">
+        <input type="button" value="4" onclick="valuefrombtn.value+='4'">
+        <input type="button" value="5" onclick="valuefrombtn.value+='5'">        <input type="button" value="6" onclick="valuefrombtn.value+='6'">
+          <input type="button" value="-" onclick="valuefrombtn.value+='-'">
+     </div>
+
+
+     <div class="btn">
+        <input type="button" value="1" onclick="valuefrombtn.value+='1'">
+        <input type="button" value="2" onclick="valuefrombtn.value+='2'">
+        <input type="button" value="3" onclick="valuefrombtn.value+='3'">
+        <input type="button" value="*" onclick="valuefrombtn.value+='*'">
+     </div>
+
+
+     <div class="btn">
+        <input type="button" value="00" onclick="valuefrombtn.value+='00'">
+        <input type="button" value="0" onclick="valuefrombtn.value+='0'">
+        <input type="button" value="%" onclick="valuefrombtn.value='%'">
+        <input type="button" value="=" onclick="valuefrombtn.value=eval(valuefrombtn.value)">   </div>
+</form>
+</div>
+<style>
+  .btn  input{
+        background-color: rgba(31, 34, 61, 0.603);
+        color: azure;
+        font-size: x-large;
+        height: 50px;
+        width: 50px;
+    }
+    .btn1 input{
+       color: rgb(24, 11, 11);
+    }
+</style>
+</body>
+</html>

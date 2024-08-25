@@ -1,0 +1,28 @@
+form{
+  margin: 200px 50px;
+  margin-left: 400px;
+  background-color: black;
+  height: 272px;
+  width: 218px;
+}
+
+.user-input input{
+    height: 35px;
+    width: 209px;
+    background-color: black;
+    color: white;
+}
+body{
+    background-color: yellow;
+}
+.btn{
+    color: aliceblue;
+   
+}
+.niral{
+    background-color: rgb(246, 235, 235);
+    align-items: center;
+    height: 30px;
+    width: 50px;
+   
+}
